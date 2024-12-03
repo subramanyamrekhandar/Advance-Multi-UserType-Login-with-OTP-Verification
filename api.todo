@@ -1,0 +1,58 @@
+Register/Login Module usertype -  admin, operator and user
+
+admin:
+
+api details:
+
+- admin login:
+url: http://localhost/api/adminlogin
+
+- operator login:
+url: http://localhost/api/operatorlogin
+
+- course creating:
+url: http://localhost/api/coursecreating
+
+-course details :
+url: http://localhost/api/coursedetailscreate
+
+-Blog:
+url: http://localhost/api/blogcreating
+
+- blog details:
+url: http://localhost/api/blogdetisls
+
+-Gellary:
+url: http://localhost/api/gellarycreating
+
+-Form get in touch:
+url: http://localhost/api/formcreating
+
+-Form course enquiry: 
+url: http://localhost/api/formcreating
+
+-Testimonial: ( Optionals)
+url: http://localhost/api/testimonialcreating
+
+- FAQ:
+url: http://localhost/api/faqcreating
+
+
+
+
+- course creating: 
+
+Method: Post 
+url: http://localhost/api/testimonialcreating
+Description: Admin has creating the course on the panel 
+
+
+Method: Get  ( user and admin)
+url: http://localhost/api/testimonialcreating
+Description: Admin has view the course details on panel list by id 
+
+Method: Update
+url: http://localhost/api/testimonialcreating
+details: Admin has update the data
+
+
