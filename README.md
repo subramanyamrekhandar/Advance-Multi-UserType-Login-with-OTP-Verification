@@ -42,7 +42,7 @@ This backend system is built using the **MERN stack** and provides an advanced l
 1. Clone the repository:
     ```bash
     git clone https://github.com/subramanyamrekhandar/Advance-Multi-UserType-Login-with-OTP-Verification.git
-    cd advanced-multi-user-login
+    
     ```
 
 2. Install dependencies:
