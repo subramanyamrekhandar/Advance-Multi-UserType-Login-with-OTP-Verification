@@ -36,30 +36,12 @@ This backend system is built using the **MERN stack** and provides an advanced l
 - **Twilio**: For sending OTPs via SMS.
 - **Resend**: For sending OTPs via email.
 
-## API Endpoints
-
-### Authentication
-- **`POST /api/auth/login`**: User login with OTP request (via SMS or email).
-- **`POST /api/auth/verify-otp`**: Verifies OTP for login.
-- **`POST /api/auth/register`**: Register a new user.
-
-### Admin Panel
-- **`GET /api/admin/user-types`**: Retrieve all user types.
-- **`POST /api/admin/user-types`**: Create a new user type.
-- **`PUT /api/admin/user-types/:id`**: Update an existing user type.
-- **`DELETE /api/admin/user-types/:id`**: Delete a user type.
-
-### User Management
-- **`GET /api/users`**: Fetch all users.
-- **`GET /api/users/:id`**: Fetch user details by ID.
-- **`PUT /api/users/:id`**: Update user role or details.
-- **`DELETE /api/users/:id`**: Delete a user.
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/advanced-multi-user-login.git
+    git clone https://github.com/subramanyamrekhandar/Advance-Multi-UserType-Login-with-OTP-Verification.git
     cd advanced-multi-user-login
     ```
 
@@ -83,7 +65,7 @@ This backend system is built using the **MERN stack** and provides an advanced l
 
 4. Start the server:
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## Future Enhancements
